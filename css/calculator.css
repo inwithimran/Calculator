@@ -70,6 +70,7 @@ li img {
     position: absolute;
     top: 110px;
     background-color: #E6E6E6;
+    border-radius: 10px;
 }
 
 .type-bar li {
