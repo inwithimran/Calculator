@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>计算器</title>
+    <title>Calculator</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/calculator.css">
@@ -10,22 +10,22 @@
 </head>
 
 <body>
-    <!--标准型-->
+    <!--Standard type-->
     <div class="standard-main" id="std-main">
         <div class="title">
-            &nbsp;&nbsp;计算器
+            Calculator
         </div>
-        <!--结果显示区域-->
+        <!--Result display area-->
         <div class="result">
-            <!--显示类型信息-->
+            <!--Show type information-->
             <div class="type" id="std-show-bar">
                 ☰&nbsp;&nbsp;&nbsp;Standard
             </div>
-            <!--上一步的结果-->
+            <!--Result of the previous step-->
             <div class="pre" id="std-pre-step">
                 &nbsp;
             </div>
-            <!--第二个/运算结果-->
+            <!--Second/Operation result-->
             <div class="second" id="std-show-input">0</div>
         </div>
         <ul id="std-top-symbol">
@@ -34,7 +34,7 @@
             <li value="19"><img src="images/x_2.png" style="height: 18px;" /></li>
             <li value="20"><img src="images/1_x.png" /></li>
         </ul>
-        <!--数字和符号-->
+        <!--Numbers and Symbols-->
         <ul id="std-num-symbol">
             <li value="37">CE</li>
             <li value="38">C</li>
@@ -57,32 +57,32 @@
             <li value="10">.</li>
             <li value="12">=</li>
         </ul>
-        <!--侧边栏，选择计算器类型-->
+        <!--Sidebar, select calculator type-->
         <ul class="type-bar" id="std-type-bar">
-            <li class="active">标准</li>
-            <li value="2">科学</li>
-            <li value="3">程序员</li>
+            <li class="active">Standard</li>
+            <li value="2">Science</li>
+            <li value="3">Programmer</li>
         </ul>
     </div>
-    <!--科学型-->
+    <!--Scientific-->
     <div class="science-main" id="sci-main">
         <div class="title">
-            &nbsp;&nbsp;计算器
+            Calculator
         </div>
-        <!--结果显示区域-->
+        <!--Result display area-->
         <div class="sci-result">
-            <!--显示类型信息-->
+            <!--Show type information-->
             <div class="type" id="sci-show-bar">
                 ☰&nbsp;&nbsp;&nbsp;Science
             </div>
-            <!--上一步的结果-->
+            <!--Result of the previous step-->
             <div class="pre" id="sci-pre-step">
                 &nbsp;
             </div>
-            <!--第二个/运算结果-->
+            <!--Second/Operation result-->
             <div class="second" id="sci-show-input">0</div>
         </div>
-        <!--上面的3行运算符-->
+        <!--3 lines of operators above-->
         <ul id="sci-top-symbol">
             <li value="21">(</li>
             <li value="22">)</li>
@@ -96,11 +96,11 @@
             <li value="29">tan</li>
             <li value="30"><img src="images/10_x.png" /></li>
             <li value="31">log</li>
-            <li value="32">sinh</li>
+            <li value="32">birth</li>
             <li value="33">cosh</li>
             <li value="34">tanh</li>
         </ul>
-        <!--数字和符号-->
+        <!--Numbers and Symbols-->
         <ul id="sci-num-symbol">
             <li value="35">π</li>
             <li value="37">CE</li>
@@ -128,31 +128,31 @@
             <li value="10">.</li>
             <li value="12">=</li>
         </ul>
-        <!--侧边栏，选择计算器类型-->
+        <!--Sidebar, select calculator type-->
         <ul class="type-bar" id="sci-type-bar">
-            <li value="1">标准</li>
+            <li value="1">Standard</li>
             <li class="active">科学</li>
-            <li value="3">程序员</li>
+            <li value="3">Programmer</li>
         </ul>
     </div>
-    <!--程序员型-->
+    <!--Programmer type-->
     <div class="programmer-main" id="pro-main">
         <div class="title">
-            &nbsp;&nbsp;计算器
+            Calculator
         </div>
-        <!--结果显示区域-->
+        <!--Result display area-->
         <div class="pro-result">
-            <!--显示类型信息-->
+            <!--Show type information-->
             <div class="type" id="pro-show-bar">
                 ☰&nbsp;&nbsp;&nbsp;Programmer
             </div>
-            <!--上一步的结果-->
+            <!--Result of the previous step-->
             <div class="pre" id="pro-pre-step">
                 &nbsp;
             </div>
-            <!--第二个/运算结果-->
+            <!--Second/Operation result-->
             <div class="second" id="pro-show-input">0</div>
-            <!--显示16、10、8、2进制的值-->
+            <!--Display 16, 10, 8, and 2-base values-->
             <div id="pro-scales">
                 <div scale="16">HEX&nbsp;&nbsp;&nbsp;<span>0</span></div>
                 <div scale="10" class="scale-active">DEC&nbsp;&nbsp;&nbsp;<span>0</span></div>
@@ -160,7 +160,7 @@
                 <div scale="2">BIN&nbsp;&nbsp;&nbsp;&nbsp;<span>0</span></div>
             </div>
         </div>
-        <!--上面的一行十六进制数字，因为默认是10进制，所以这些按钮默认禁用-->
+        <!--The above line of hexadecimal numbers is in decimal by default, so these buttons are disabled by default-->
         <ul id="pro-top-symbol">
             <li class="disable-btn" value="40">A</li>
             <li class="disable-btn" value="41">B</li>
@@ -169,7 +169,7 @@
             <li class="disable-btn" value="44">E</li>
             <li class="disable-btn" value="45">F</li>
         </ul>
-        <!--数字和符号-->
+        <!--Numbers and Symbols-->
         <ul id="pro-num-symbol">
             <li value="36">↑</li>
             <li value="37">CE</li>
@@ -197,11 +197,11 @@
             <li value="10" class="disable-btn" id="pro-point">.</li>
             <li value="12">=</li>
         </ul>
-        <!--侧边栏，选择计算器类型-->
+        <!--Sidebar, select calculator type-->
         <ul class="type-bar" id="pro-type-bar">
-            <li value="1">标准</li>
-            <li value="2">科学</li>
-            <li class="active">程序员</li>
+            <li value="1">Standard</li>
+            <li value="2">Science</li>
+            <li class="active">Programmer</li>
         </ul>
     </div>
 </body>
