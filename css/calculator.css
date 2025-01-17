@@ -28,6 +28,8 @@ li img {
 }
 
 .title {
+    text-align: center;
+    font-size: 28px;
     height: 30px;
     line-height: 30px;
 }
